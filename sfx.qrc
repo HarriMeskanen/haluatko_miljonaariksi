@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sfx/theme.wav</file>
+        <file>sfx/lvl0.mp3</file>
+        <file>sfx/lvl1.mp3</file>
+        <file>sfx/lvl2.mp3</file>
+        <file>sfx/lvl3.mp3</file>
+        <file>sfx/lose.mp3</file>
+        <file>sfx/win.mp3</file>
+    </qresource>
+</RCC>

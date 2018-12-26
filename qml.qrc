@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>StartView.qml</file>
+        <file>GameView.qml</file>
+        <file>DefaultButton.qml</file>
+        <file>QuestionBox.qml</file>
+        <file>ErrorMessage.qml</file>
+        <file>EndView.qml</file>
+        <file>GameButton.qml</file>
+        <file>CongratulationMessage.qml</file>
+        <file>CondolencesMessage.qml</file>
+        <file>LoadUrl.qml</file>
+        <file>LifeLines.qml</file>
+        <file>VoteResultChart.qml</file>
+        <file>WinMessage.qml</file>
+        <file>LLButton.qml</file>
+    </qresource>
+</RCC>

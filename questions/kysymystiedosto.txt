@@ -1,0 +1,225 @@
+﻿1;Minkä lajin maailmanmestari Mika Häkkinen on?;Mäkihypyn;Esteratsastuksen;Jalkapallon;Formula-autoilun;d
+1;Kuka tunnettu fyysikko loi teorian mustien aukkojen toiminnasta?;Albert Einstein;Stephen Hawking;Isaac Newton;Galileo Galilei;b
+1;Monestako osavaltiosta yhdysvallat koostuvat?;30;40;50;60;c
+1;Miksi pesäpalloilu termiksi kutsutaan lyöntiä, jonka aikana lyöjä kerkeää juosta viimeiselle pesälle asti pysähtymättä?;Kuhnari;Duunari;Kunnari;Bommari;c
+1;Millä yhteisellä nimellä kutsutaan sekä alkoholia myyvää liikettä että paineen yksikköä?;Booli;Aari;Baari;Boori;c
+1;Millä nimellä Hi-Lo-Jack korttipelissä kutsutaan toisen kierroksen pienimmän valttikortin ryöstämistä?;Hapan imelä;Rassen naseva;Mikon höllivä;Mestarin erikoinen;d
+1;Mikä näistä aurinkokuntamme taivaankappaleista on suurin?;Asteroidi;Komeetta;Maapallo;Kuu;c
+2;Minä vuonna Sauli Niinistö astui presidentin virkaan?;2011;2012;2013;2014;b
+1;Mikä on Suomen suurin järvi?;Näsijärvi;Vesijärvi;Päijänne;Saimaa;d
+1;Minkä maalainen automerkki Toyota on?;Ruotsalainen;Saksalainen;Kiinalainen;Japanilainen;d
+2;Kenet seuraavista tituuleerattiin maailman hauskimmaksi mieheksi vuonna 2015?;Sami Hedberg;Ismo Leikola;Roope Salminen;Aku Hirviniemi;b
+2;Mikä Albert Einsteinin ennustama fysikaalinen ilmiö havaittiin ensimmäistä kertaa vuonna 2016?; Pimeä energia;Gravitaatioaallot;Hiukkassäteily;Eksoplaneetta;b
+2;Kuinka monta tuumaa on jalassa?;6;12;18;24;b
+2;Millä näppäinyhdistelmällä Windows ympäristössä luodaan yhtäsuuruusmerkki?;Alt Gr + 2;Shift + 1;Ctrl + 5;Shift + 0;d
+1;Kuka seuraavista mies yleisurheilijoista pitää hallussaan 100 metrin juoksun maailmanennätystä?;Usain Bolt;Tyson Gay;Justin Gatlin;Asafa Powell;a
+2;Minkä maalainen on teknologiajätti Samsung?;Kiinalainen;Japanilainen;Korealainen;Taiwanilainen;c
+2;Minkä nykypäivän maan rannikolle toisen maailmansodan Normandian maihinnousun tapahtumat sijoittuvat?;Saksan;Ranskan;Japanin;Yhdysvaltojen;b
+2;Mistä komediasarjasta näyttelijä Charlie Sheen parhaiten tunnetaan?;Miehen puolikkaat;Ensisilmäyksellä;Kolmas kivi Auringosta;Kaikki rakastavat Raymondia;a
+2;Mikä elokuva on kerännyt kautta aikojen suurimmat lipputulot?;Titanic;Star Wars IV;Avatar;The Avengers;c
+2;Kuinka monen pisteen arvoinen jätkä-kuvakortti on pelissä Blackjack?;1;10;11;21;b
+1;Mitä tieteen alaa farmasia tutkii?;Lääkkeiden valmistustaitoa;Kullan etsimisen optimointia;Maanviljelyn teknillistämistä;Kotieläinten turvallisuutta;a
+2;Arnold Schwarzenegger asuu nykyisin Californiassa, mutta mikä on hänen synnyinmaansa?;Saksa;Hollanti;Itävalta;Belgia;c
+2;Minkä niminen kissa Hermione Grangerilla oli Harry Potter kirjoissa?;Norriska;Koukkujalka;Kutka;Hedwig;b
+3;Mikä on nimeltään kesäkuussa Los Angelesissä pidettävä suurin peli- ja teknologiademo tapahtuma?;Assembly;CES;E3;ECTS;c
+3;Kuka voitti jalkapallon MM-kilpailut vuonna 1998?;Saksa;Brasilia;Argentiina;Ranska;d
+3;Millä nimellä keilauksessa kutsutaan neljän perättäisen kaadon putkea?;Mäkiset;Korhoset;Kinnuset;Markkaset;c
+3;Miksi kutsutaan antiikin Kreikan koston ja tasapainon Jumalatarta?;Kronos;Hyperion;Gaia;Nemesis;d
+3;Minä vuonna solmittiin Pähkinäsaaren rauha?;1323;1565;1770;1917;a
+3;Minkä eläimen Baratheon suku on valinnut symbolikseen Game of Thrones sarjassa?;Villisian;Peuran;Hirven;Karhun;b
+3;Millä toisella nimellä Tyynen valtameren pyörremyrskyt tunnetaan?;Hurrikaani;Syklooni;Taifuuni;Tornaado;c
+3;Minkä peliyhtiön Gabe Newell perusti vuonna 1996?;Riot Gamesin;Remedyn;Activisionin;Valven;d
+3;Millä yksiköllä ruoan tulisuutta mitataan?;Scovillellä;Sievertillä ;Furlongilla;Graanilla;a
+3;Mihin kaleidoskooppia käytetään?;Kuvan tarkentamiseen;Kuvan suurentamiseen;Kuvan heijastamiseen ;Kuvan tallentamiseen;c
+3;Mikä esine tai asia komeilee Lahden vaakunassa?;Ruori;Junan pyörä;Järvi;Purjevene;a
+3;Mitä tarkoittaa Lähi-idässä käytetty sana Basaari?;Valtaväylää;Joen rantaa;Taajamaa;Kauppakatua;d
+3;Raamatun vanhassa testamentissa muita enkeleitä ylempi, niin sanottu Arkkienkeli oli nimeltään:;Nathaniel;Ezekiel;Uriel;Michael;d
+3;Montako rajanaapuria Belgialla on?;2;3;4;5;c
+3;Mistä elokuvasarjasta Mia ja Dominic Toretto tunnetaan?;Hurjapäät;Varjojen valtakunta;Tähtien sota;The Expendables;a
+3;Kuinka monta senaattoria Yhdysvaltain senaattiin kuuluu?;50;100;150;200;b
+3;Minkä toimintaelokuvan päähahmona tunnetaan Thomas Anderson?;Daredevil;Jack Reacher;Kapteeni Amerikka;The Matrix;d
+3;Mikä on Linnunrataa lähinnä sijaitseva galaksi?;Sirius;Andromeda;Ursa Major;Pegasus;b
+3;Mikä on maailman syvin järvi?;Laatokka;Michigan Järvi;Baikaljärvi;Victoriajärvi;c
+3;Kenet FHM valitsi vuoden 2015 seksikkäimmäksi naiseksi?;Michelle Keegan;Kate Upton;Jennifer Lawrence;Emilia Clarke;a
+2;Mikä englannin kielinen sana tarkoittaa pelikorttien maata risti?;Crosses;Trees;Clubs;Blocks;c
+1;Montako tuhatta on miljoonassa?;yksi;kymmenen;sata;tuhat;d
+1;Mistä geometrisesta muodosta Kuningas Arthurin ja hänen ritareiden pöytä on tunnettu?; Ympyrästä;Kolmiosta;Neliöstä;Suunnikkaasta;a
+1;Mikä on Yhdysvalloissa käytetty yleinen hätänumero?;112;666;911;1337;c
+1;Mikä kissaeläin esiintyy Floridan NHL-joukkueen logossa?;Tiikeri;Leijona;Leopardi;Pantteri;d
+1;Golftermi albatrossi tarkoittaa radan selvittämistä:;Yhdellä lyönnillä;3 lyöntiä alle ihannetuloksen;Joutumatta vesiesteeseen;3 lyöntiä yli ihannetuloksen;b
+1;Kuka seuraavista näyttelijöistä ei ole roolittanut James Bondia?;Daniel Graig;Pierce Brosnan;Tom Cruise;Roger Moore;c
+1;Kuinka Saksa ja Japani selviävät lakkautettuaan ydinvoiman tuoton?;Erinomaisesti;Hyvin;Kohtalaisesti;Kysy Jaskarilta;d
+1;Mikä on Pii-alkuaineen kemiallinen merkki?; Ri;Si;Di;Fi;b
+1;Mistä sanoista lyhenne R.I.P tulee?;Rest In Piece;Rest In Peace;Rest In Peaces;Rip In Peaces;b
+1;Kenen suositun populäärimuusikon tuottama kappale "Beat it" on?;Michael Jackson;Prince;Madonna;Elvis Presley;a
+1;Mikä on Suomen kansallislaulun nimi?;Maamme-laulu;Finlandia hymni;Porilaisten marssi;Suomi-laulu;a
+1;Kuka pieni ruskea karvainen hahmo on Muumi-animaatioiden ainoa rosvo, jota ilman Muumilaakson poliisi olisi työtön?;Hemuli;Nuuskamuikku;Haisuli;Viljonkka;c
+1;Kuka saa pitää jääkiekon SM-liigassa päässään kultaista kypärää?;Paras maalintekijä;Paras pistemies;Paras äijä;Paras syöttäjä;b
+1;Minkä niminen avaruuscowboy on pääosassa elokuvassa Toy Story?;Woody;Buzz Lightyear;Herra Perunapää;Slinky;b
+1;Mikä vedessä tapahtuva liike on myös kuuluisan suomalaisen arkkitehdin sukunimi?;Aalto;Laine;Myrsky;Ranta;a
+1;Mikä on Johnny Deppin roolinimi Pirates of the Caribbean -elokuvissa?;Jack Sparrow;Will Turner;Hector Barbossa;Philip Swift;a
+1;Mikä oli Ranskan keisari Napoleonin sukunimi?;Alacarte;Bonappetit;Bonvoyage;Bonaparte;d
+1;Kuinka monta tähteä on otavassa?;4;5;6;7;d
+1;Minkä nimisessä paikassa Peter Pan asuu ystävineen?;Narniassa;Mikä-Mikä-Maassa;Tylypahkassa;Ihmemaassa;b
+1;Minkä ruumiinosan sisilisko pystyy irrottamaan harhauttaakseen ahdistelijaansa?;Hännän;Jalat;Kädet;Pään;a
+1;Miksi eläimeksi erotuomaria joskus kutsutaan?;kirahviksi;laamaksi;seepraksi;leopardiksi;c
+1;Mitä sukua Hannu Hanhi on Aku Ankalle?;Veli;Serkku;Pikkuserkku;Ei mitään sukua;b
+1;Minkä Yhdysvaltain kaupungin lempinimi on Iso Omena?;New York;Washington DC;Los Angeles;Miami;a
+1;Miksi kutsutaan maailman meluisinta apinaa?;meluapina;mölyapina;punapersepaviaani;simpanssi;b
+1;Mistä eläimestä tehdään pekonia?;Siasta;Hevosesta;Naudasta;Kanasta;a
+3;Mikä toimistotyöntekijän niminen lintu elää Afrikan savanneilla?;kanslisti;sihteeri;assistentti;kirjanpitäjä;b
+2;Mikä on maailman suurin saari?;Islanti;Iso-Britannia;Grönlanti;Madagaskar;c
+2;Kenen laulajan kanssa jalkapalloilija Gerard PiquÃ© seurustelee?;Avril Lavigne;Shakira;Rihanna;Nicole Scherzinger;b
+2;Minkä elokuvasarjan hahmoja ovat Qui-Gon Jinn, Yarael Poof ja Suurmoffi Tarkin?;Tähtien sodan;Star Trekin;Taru sormusten herrasta;Harry Potter;a
+2;Minkä maalaisia jääkiekkoilijoita kutsutaan "nikkareiksi"?;Yhdysvaltalaisia;Ruotsalaisia;Kanadalaisia;Tsekkiläisiä;c
+2;Mikä on curlingissa pesän pienin kehä nimeltään?;Nänni;Napa;Näppylä;Nipukka;a
+2;Mitä tuoreelle kananmunalle tapahtuu, kun sen laittaa vettä täynnä olevaan lasiin?;Se nousee pintaan;Se vajoaa pohjaan;Se imee itseensä vettä ja halkeaa;Ei mitään;b
+2;Mikä on ablatiivi-muoto sanasta valo?;Valosta;Valolle;Valolta;Valoon;c
+2;Miksi kutsutaan sanaa, jonka kirjainten järjestys on sama etu- ja takaperin?;Balindromi;Palindromi;Palinkromi;Alindromi;b
+2;Mitä Afrikan maata kutsuttiin aikoinaan "kultarannikoksi"?;Norsunluurannikko;Ghana;Libya;Egypti;b
+2;Mitä juhlapäivää vietetään joka vuosi toukokuun toisena sunnuntaina?;Ã„itienpäivää;Isänpäivää;Ystävänpäivää;Naistenpäivää;a
+2;Mikä design-yritys on kuuluisa tasaraitapaidoistaan?;Levi's;Fjällraven;Haglöfs;Marimekko;d
+3;Minkä rotuinen oli Adolf Hitlerin lemmikkikoira Blondi?;Rotweiler;Belgianpaimenkoira;Juutalainen;Saksanpaimenkoira;d
+3;Mikä on Frasier Cranen ammatti TV-sarjassa Frasier?;Arkkitehti;Sosionomi;Radiopsykologi;Toimitusjohtaja;c
+3;Kuinka monta astetta meriveden lämpötilan täytyy vähintään olla, että hurrikaani voi syntyä?;20 astetta;23 astetta;27 astetta;33 astetta;c
+3;Kuka on maalannut kuuluisan maalauksen Haavoittunut enkeli?;Akseli Gallen-Kallela;Hugo Simberg;Albert Edelfelt;Helene Schjerfbeck;b
+3;Mikä luonnonoikku on intialaisittain poti?;Parrakas nainen;Homoseksuaali;Transseksuaali;kääpiö;a
+3;Minkä Englannin valioliigajoukkueen lempinimi on Foxes?;Arsenalin;Watfordin;Leicesterin;Evertonin;c
+3;Montako tuumaa on jaardi?;24;36;48;60;b
+2;Minkä eläimen luusta Väinämöinen teki kanteleen Kalevalassa?;Karhu;Ahma;Hauki;Hirvi;c
+2;Kuka oli toisiksi vanhin veli 7 Veljeksestä, Juhanin jälkeen?;Tuomas;Timo;Aapo;Simeoni;a
+3;Kuka on perustanut huonekalujätti Ikean?;Björn Ulvaeus;Jörgen Brink;Gustav Eriksson;Ingvard Kamprad;d
+2;Minä vuonna Burger King on perustettu?;1954;1976;1990;2002;a
+2;Mitä tarkoittaa Eldorado?;Valtaa;Salaisuutta;Kullattua miestä;Tiedon kaupunkia;c
+2;Mikä on Suomen pisin joki?;Tenojoki;Vuoksi;Muonionjoki;Kemijoki;d
+2;Mistä klovnikalan poikasta lähdettiin etsimään elokuvassa Nemoa etsimässä?;Hammaslääkäristä;Sirkuksesta;Autokorjaamolta;Kalatiskiltä;a
+2;Missä urheilulajissa käytetään termiä kaksoiskuljetus?;Uppopallo;Käsipallo;Koripallo;Haavipallo;c
+3;Minkä väriset housut Vili Vilperillä on?;Punaiset;Siniset;Mustat;Vihreät;a
+2;Mikä eläin Vili Vilperi on?;Kiivi;Kenguru;Vesinokkaeläin;Koala;d
+1;Mitä tarkoittaa sees?;Outoa näkymää;Kirkasta päivää;Suurtamuutosta;Mielialan vaihtelua?;b
+1;Kenen kappale on "Oops I did it again"?;Beyonce;Britney Spears;Jessie J;Janet Jackson;b
+3;Missä Koli sijaitsee?;Joensuussa;Lieksassa;Juukassa;Nurmeksessa;b
+1;Nimeä seuraavista henkilöistä suurimman massan omaava.;Hapa;Mikko;Eetu;Rasmus;c
+2;Mitä seuraavista Shakkinappuloista voidaan pitää vahvimpana?;Torni;Kuningas;Kuningatar;Sotilas;c
+1;Mikä on lämpötilan Si-yksikkö?;Farenheit;Kelvin;Celsius;Elohopeamillimetri;b
+2;Kuinka monta virallista kieltä Hollannilla on?;1;3;4;0;a
+3;Mistä pelistä peliyhtiö Riot Games on parhaiten tunnettu?;Clash of Clans;Defense Of The Ancient;League of Legends;Battlefield;c
+2;Minkä armeija-teemaisen nimen suomalaisartisti Jussi Karvonen omistaa;Kenraali;Alokas;Majuri;Luutnantti;c
+1;Mikä rahavaluutta Iso-Britannia on käyteössä?;Euro;Dollari;Peso;Punta;d
+2;Minkä taidealan ammattilaisena Sasha Grey tunnetaan?;Tanssimisen;Aikuisviihteen;Ääninäyttelyn;Runoilun;b
+3;Mistä sanoista teknologiayritys LG:n nimikirjaimet tulevat?;Life is Good;Let's Go;Living Great;Living room Gear;a
+3;Kuinka monta maakuntaa Suomessa on?;15;17;19;21;c
+3;Mikä on pinta-alaltaan Lapin jälkeen Suomen toiseksi suurin maakunta?;Pirkanmaa;Pohjois-Karjala;Keski-Suomi;Pohjois-Pohjanmaa;d
+3;Mikä on pinta-alaltaan maailman pienin valtio?;Monaco;Vatikaanivaltio;San Marino;Tuvalu;b
+2;Mikä seuraavista joista on pisin?;Niili;Amazon;Mississippi;Jangtse;a
+2;Keiden historiallisesti tärkeiden henkilöiden mukaan mestari Tikku nimesi kilpikonnanuorukaiset?;Sota Kenraalien;Fyysikkojen;Taiteilijoiden;Filosofien;c
+1;Mistä tunnusomaisesta piirteestä teekkarilakin voi tunnistaa?;Vauhtiraidasta;Punaisesta varoituskolmiosta;Suippokärkisestä muodosta;Tupsusta;d
+1;Nimeä seuraavista materiaaleista painavin/tihein?;Lyijy;Rauta;Kulta;Elohopea;d
+2;Kuka nimettiin vuoden 2014 miss Suomeksi?;Bea Toivonen;Sara Chafak;Viivi Pumpanen;Anni Uusivirta;a
+1;Mikä on italian kielinen käännös sanalle Kuu?;Muna;Luna;Tuna;Juna;b
+1;Minkä viikonpäivän ateriana hernekeitto nautitaan perinteisessä puolustusvoimien ruokalistassa?;Maanantain;Tiistain;Keskiviikon;Torstain;d
+1;Mikä seuraavista sanoista ei kuulu joukkoon?;Virsta;Valovuosi;Vuosi;Poronkusema;c
+3;Kuinka montaa kilometriä yksi peninkulma suunnilleen vastaa?;Alle yhtä;Yhtä;Kymmentä;Sataa;c
+1;Mistä ominaisesta piirteestä monni-kalan tunnistaa?;Viiksistä;Hiuksista;Turkista;Pyrstökarvoista;a
+1;Minkä väriseksi Hulk muuttuu suuttuessaan?;Punaiseksi;Keltaiseksi;Siniseksi;Vihreäksi;d
+2;Minkä niminen tekoälyhovimestari Tony Starkilla on Iron Man elokuvissa?;Parvis;Jarvis;Carvis;Armis;b
+1;Mitä sana karju tarkoittaa alkuperäisessä merkityksessään?;Uros porsasta;Karhun taljaa;Äänekästä huutoa;Lihaksikasta miestä;a
+1;Raamatun mukaan kuinka monta opetuslasta Jeesuksella oli?;10;11;12;13;c
+2;Mistä hittibiisistä Paramore-yhtyä tuli kuuluisaksi?;Crushcrushcrush;Killkillkill;Diediedie;Fallfallfall;a
+1;David Copperfield on kuuluisa:;Laulaja;Uhkapeluri;Käärmeen kesyttäjä;Taikuri;d
+1;Mikä seuraavista ei kuulu joukkoon?;Karhu;Karjala;Sininen;Isänmaa;d
+2;Kuka filosofi lausu kuuluisat sanat "Ajattelen, siis olen"?;Descartes;Socrates;Platon;Aristoteles;a
+2;Mikä seuraavista asioista ei ole yhdistettävissä sanaan "mäkki";Artisti;Ravintola;Alkoholi;Tietokone;c
+2;Minä vuonna fukushiman ydinonnettomuus tapahtui?;2009;2011;2013;2015;b
+2;Akateemisen beerbong-sääntöjen mukaan molempien pelaajien samaan kuppiin heitettäessä vastustajajoukkue joutuu juomaan;1 mukin;2 mukia;3 mukia;4 mukia;c
+2;Mikä on maailman nopein merenelävä?;Tonnikala;Purjekala;Valkohai;Barrakuda;b
+2;Kuinka syvä maapallon merien syvin kohta Mariaanien hauta on?;5 567m;8 850m;10 911m;14 234m;c
+3;Kuinka monta metriä merenpinnan alapuolella maailman syvin paikka, Kuolleen meren ranta on?;150;417;634;1401;b
+1;Millä seuraavista mantereista voit tavata pingviinejä?;Pohjoisnavalla;Etelänavalla;Grönlannissa;Alaskassa;b
+2;Nykytiedon mukaan mikä maapallon ikä on suuruusluokaltaan?;tuhansia vuosia;Miljoonia vuosia;Miljardeja vuosia;Biljoonia vuosia;c
+1;Minkä niminen meri erottaa Amerikan ja Euroopan mantereet toisistaan?;Atlantin valtameri;Tyyni valtameri;Itämeri;Jäämeri;a
+1;Mikä seuraavista ei ole Argentiinan vientituote?;Öljy;Vehnä;Kokaiini;Maissi;c
+1;Mikä on väkiluvultaan suurin etelä-amerikan valtio;Brasilia;Argentiina;Chile;Mexico;a
+1;Mikä seuraavista tuotenimistä ei ole Microsoftin omistama?;Lumia;Xbox;Geforce;Windows;c
+1;Kuka naisjuontaja tuli tunnetuksi Kokkisota-ohjelmasta?;Sikke Sumari;Kirsi Salo;Marja Hintikka;Ellen Jokikunnas;a
+1;Missä tarunhohtoinen Lock Nessin järvi sijaitsee?;Englannissa;Islannissa;Irlannissa;Skotlannissa;d
+2;Mitä suomalaista puuta savustuksessa yleisimmin käytetään?;Koivua;Katajaa;Leppää;Haapaa;c
+2;Minkä yrityksen kehittämä käyttöjärjestelmä Android on?;Motorola;Google;Nexus;Intel;b
+2;Millä tavoin stratosfäärissä sijaitseva otsonikerros suojelee maapallon elämää?;Lämmittämällä ilmakehää;Polttaen ilmakehään lentävät taivaankappaleet;Imemällä uv-säteilyä;Torjumalla auringon hiukkassäteilyä;c
+2;Kuinka monta sormusta Sauron takoi ihmiskunnalle elokuvissa Taru Sormusten Herrasta?;1;3;9;27;c
+3;Milloin alkoi dinosaurusten valtakausi?;Permikaudella;Triaskaudella;Liitukaudella;Jurakaudella;d
+3;Mikä seuraavista yrityksistä on maailman suurin puolijohdevalmistaja?;Texas Instruments;Intel;Foxconn;TSMC;b
+3;Neil Armstrong laskeutui kuun päälle vuonna 1969 Apollo aluksella numero;7;9;11;13;c
+3;Mistä maasta rock -yhtye Scorpions on kotoisin?;Iso-Britanniasta;Saksasta;Yhdysvalloista;Tanskasta;b
+3;Mikä on Suomen yleisin lintulaji?;Pajulintu;Varis;Räkättirastas;Peippo;a
+1;Mikä kaupunki on tunnettu mustan makkaran suurkulutuksestaan?;Lahti;Rovaniemi;Vaasa;Tampere;d
+1;Kenen tunnetun rikosetsivän elämästä Agatha Christie kirjoittaa?;Sherlock Holmesin;Hercule Poirotin;Herkus Pöröön;Horlock Shelmes;b
+1;Tarunhohtoinen feeniks lintu voi tarinan mukaan:;Uudelleensyntyä tuhkasta;Jähmettää katseellaan;Syöstä tulta;Räjähtää supernovana;a
+1;Mikä seuraavista TV-sketsisarjoista ei ole suomalainen;Pilanpäiten;Lapinlahden linnut;Kummeli;Ketonen & Myllyrinne;a
+2;Mikä on virallinen Si-järjestelmän mittayksikkö valovoimalle?;Luksi;Hefner-kynttilä;Kandela;Lichner;c
+1;Mikä on maailman suurikokoisin karhu?;Harmaakarhu;Mustakarhu;Ruskeakarhu;Jääkarhu;d
+2;Mikä seuraavista äänialaluokista on korkein?;Sopraano;Mezzosopraano;Altto;Kontra-altto;a
+1;Minkä eläimen Brody ja kumppanit yrittävit pyydystää elokuvassa Jaws?;Valkohain;Tyrannosaurus Rexin;Anakondan;Sapelihammastiikerin;a
+1;Vuodet 2007-2014 Posti Group OYj tunnettiin nimellä:;Itella;Youtella;Wetella;Nutella;a
+1;Kuka voitti vapun 2016 jäynäkisan fuksisarjan mestaruuden?;KoRK;TiTe;MiK;Indecs;d
+1;Mikä seuraavista ruoka-annoksista ei kuulu ravintola Newtonin menuun?;Chilinakit;Juustoinen broileripuikko;Jättijuustoburger;Kievin kana;c
+1;Kuka muotitietoinen, tietyissä piireissä tekniikan alan pioneerin statuksen saavuttanut henkilö on vastuussa Rasmus Hämäläisen kandidaatin työn tarkistamisesta?;Mikko Mikontalo;Mikko Vanhatalo;Mikko Vanhalato;Mikko Varmapano;b
+1;Kuinka monta maailmanmestaruutta suomen miesten maajoukkue on voittanut jääkiekossa?;0;1;2;3;c
+1;Kuka suomalainen henkilö tunnetaan HIM -yhtyeen keulahahmona?;Lauri Ylönen;Ville Valo;Lauri Tähkä;Tarja Turunen;b
+1;Minkä eläimen avulla Erwin Schrödinger havainnollisti hiukkasmaailman kvanttista luennetta kuuluisassa älykokeessaan?;Kissan;Koiran;Hiiren;Pulun;a
+1;Kuka on Facebookin perustaja?;Bill Gates;Steve Jobs;Gabe Newell;Mark Zuckerberg;d
+1;Kuinka monta valtiota Pohjoismaihin kuuluu?;2;5;8;10;b
+1;Mitä lukua kirjainyhdistelmä XII tarkoittaa roomalaisittain?;12;52;102;120;a
+2;Mikä elokuva voitti vuoden parhaan elokuvan Oscar-palkinnon vuonna 2015?;The Revenant;Mad Max: Fury Road;The Room;Spotlight;d
+2;Kuinka monen voltin suuruinen Suomessa käytetty verkkovirran jännite on?;220;230;240;250;b
+2;Mikä seuraavista ei ole särkikala?;Harjus;Lahna;Ruutana;Salakka;a
+2;Kenen kuuluisan tiedemiehen mukaan Walter White nimesi aliaksensa sarjassa Breaking Bad?;Faraday;Rutherford;Sommerfeld;Heisenberg;d
+2;Nykytiedon mukaan musta aukko syntyy:;Tähtien törmäysvuorovaikutuksessa;Supernova räjähdyksessä;Tähden romahtaessa;Aika-avaruuden singulariteetista;c
+2;Kuka oli suomen ensimmäinen Idols -laulukilpailun voittaja?;Hanna Pakarinen;Antti Tuisku;Jonna Tervomaa;Laura Voutilainen;a
+2;Kuka kirjoittaa vielä kesken olevaa kirjasarjaa "A song of Ice and Fire";C.S. Lewis;George R.R. Martin;J.K. Rowling;Stephenie Mayer;b
+2;Kuka naisnäyttelijä tunnetaan elokuvista "Sherlock Holmes", "Prometheus" ja "Girl with the Dragon Tattoo";Charlize Theron;Emily Blunt;Noomi Rapace;Sigourney Weaver;c
+3;Mikä seuraavista Nintendo klassikoista on vanhin?;Pokemon;Super Mario;Zelda;Metroid;b
+2;Mikä seuraavista ei ole windows ympäristön verkkoselain?;Opera;Chromium;Edge;Ocean;d
+2;Valonnopeus tyhjiössä on suuruudeltaan(noin suunnilleen)?;300 000 m/h;300 000 km/h;300 000 m/s;300 000 km/s;d
+2;Millä nimellä Intian valtamerellä syntyviä pyörremyrskyjä kutsutaan?;Tornaado;Taifuuni;Syklooni;Hurrikaani;c
+3;Mikä on rap-artisti Eminemin oikea nimi?;Cordozar Calvin Broadus Jr.;Marshall Bruce Mathers III;William Leonard Robers II;Curtis James Jackson III;b
+3;Rap-artisti Curtis James Jackson III tunnetaan maailmalla paremmin nimellä;50 cent;Eminem;Snoop Dogg;Rick Ross;d
+1;Kuka artisti/yhtye toi Euroviisu voiton Suomeen vuonna 2006?;Jari Sillanpää;Hanna Pakarinen;Laura Voutilainen;Lordi;d
+1;Minä vuonna toinen maailmansota julistettiin alkaneeksi?;1959;1949;1939;1929;c
+2;Kuka oli Suomen tasavallan ensimmäinen presidentti?;K.J.Ståhlberg;Urho Kekkonen;Carl Gustaf Mannerheim;Martti Ahtisaari;a
+1;Timo Soini kuvasi Perussuomalaisten "vaalivoittoa" vuonna 2011 isona:;Kytkynä;Jytkynä;Rytkynä;Hytkynä;b
+2;Mikä seuraavista vaihtoehdoista on kansainvälisen olympiakomitean tunnustama urheilulaji?;E-urheilu;Shakki;Golf;Skeittaus;c
+1;Mistä moottoriurheilulajista Toni Gardemeister tuli tunnetuksi?;Formulasta;Rallista;Motocrossista;Kilpaveneilystä;b
+1;Kuinka monen vuoden välein kesäolympialaiset järjestetään?;2;3;4;5;c
+2;Mikä on yleisin maailmanuskonto?;Kristinusko;Islaminusko;Hindulaisuus;Buddhalaisuus;a
+1;Mikä on kristinuskon symboli?;Tähti;Risti;Raamattu;Kyyhkynen;b
+1;Kuinka monta pistettä onnistuneesta vapaaheitosta saa koripallossa?;1;2;3;4;a
+1;Mistä sanoista tulee termi UFO?;Ultimate Fighter Orava;Unidentified Flying Object;Ulkoistettu Ferrari Ohjaaja;Unidentified Fearful Orange;b
+1;Montako Oscaria Leonardo DiCapriolla on?;0;1;2;3;b
+2;Montako maitohammasta lapsella on?;10;15;20;25;c
+2;Miten pusutauti eli mononukleoosi tarttuu?;Ilmasta;Kosketustartuntana;Syljestä;Ajatuksen välityksellä;c
+3;Kuka kirjailija kirjoitti teoksen Kolme Muskettisoturia?;Agatha Christie;Aleksis Kivi;Alexandre Dumas;James Joyce;c
+2;Ketä seuraavista hahmoista Jason Momoa ei ole näytellyt?;Khal Drogo;Aquaman;Ronon Dex;John Matrix;d
+3;Oliko taannoin Cernissä löydetty Higgsin hiukkanen;Fermioni;Bosoni;Pölyhiukkanen;Kvantti;b
+2;Mistä yhtyeestä Mark Knopfler tuli tunnetuksi?;Deep Purple;Abba;Dire Straits;Black Sabbath;c
+2;Oliko Tchaikovsky;Venäläinen;Valko-Venäläinen;Puna-Venäläinen;Puolalainen;a
+1;Missä pelisarjassa seikkailee karismaattinen sankari Geralt?;Mario Kart;Witcher;Uncharted;Änäri;b
+1;Kuka oli ensimmäinen suomalainen Stanley Cup voittaja?;Ari Kurre;Jari Kurri;Jori Hurri;Harri Karri;b
+3;Mikä on yleisin haulikon kaliiperi Suomessa?;10;12;20;50;b
+1;Mikä on ravaisin seuraavista kaloista?;Hauki;Makrilli;Lohi;Kuha;b
+3;Montako jalkaa bulgarialaisessa kyykyssä on maassa?;Ei yhtään;Yksi;Kaksi;Kolme;b
+3;Kuka on valmistanut Stratocaster merkkisen kitaran?;Gibson;Ibanez;Fender;Yamaha;c
+2;Missä sijaitsee Albania?;Euroopassa;Afrikassa;Etelä-Amerikassa;Oseaniassa;a
+1;Montako sekuntia on tunnissa?;600;2400;3600;6000;c
+3;Missä ihmiskehon osassa sijaitsee mustatumake?;Ranteessa;Aivoissa;Suolistossa;Maksassa;b
+1;Kuinka paljon verta aikuisen miehen kehossa on?;Noin 3 litraa;Noin 5 litraa;Noin 7 litraa;Noin 10 litraa;b
+1;Kuka näyttelee Kummisetää?;Marlon Brando;Barlon Mando;Brandon Marlo;Lorman Bronda;a
+1;Mikä seuraavista löytyy New Yorkista?;Roof Street;Wall Street;Floor Street;Door Street;b
+1;Kuinka pitkä matka maratonissa juostaan?;21 km;42 km;63 km;84 km;b
+1;Mikä on Robinson Crusoen kaverin nimi?;Torstai;Perjantai;Lauantai;Sunnuntai;b
+1;Mikä on Tom Hanksin kaverin nimi elokuvassa Cast Away?;Bill;Will;Wilson;Spalding;c
+2;Missä sijaitsee Rauhallisuuden meri?;Pohjois-Amerikassa;Balkanilla;Aasiassa;Kuussa;d
+2;Kuka on perustanut Adidaksen?;Andy Dassler;Adolf Dassler;Aarno Dassler;Aaron Dassler;b
+1;Mikä seuraavista ei ole alkuluku?;3;7;9;13;c
+2;Mikä on ensimmäinen elokuva jossa Arnold Schwarzenegger näytteli?;Conan the Barbarian;The Terminator;Hercules In New York;The Running Man;c
+3;Mikä elin erittää tyroksiinia?;Maksa;Munuainen;Kilpirauhanen;Kateenkorva;c
