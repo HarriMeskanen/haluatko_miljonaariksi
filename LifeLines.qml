@@ -11,8 +11,8 @@ Rectangle{
     width: parent.width/8
     height: parent.height/6
     color: "black"
-    border.color: "gold"
-    border.width: height*0.005
+    //border.color: "gold"
+    //border.width: parent.width*0.005
     radius: height/32
 
     ColumnLayout{

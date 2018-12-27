@@ -22,12 +22,15 @@ Window {
 
     MediaPlayer{
         id: sfx
-        loops: MediaPlayer.Infinite
-        source: "qrc:/sfx/theme.wav"
+        loops: 1
+        source: ""
     }
 
-    function setSfx(id){
+    function setSfx(id, inf){
         sfx.stop()
+        if(inf)
+            sfx.loops = MediaPlayer.Infinite
+        else sfx.loops = 1
         sfx.source = "qrc:/sfx/" + id
         sfx.play()
     }
@@ -38,18 +41,22 @@ Window {
 
     function showGameView(){
         loader.source = "GameView.qml"
-        setSfx("lvl0.mp3")
+        setSfx("lvl0.mp3", true)
     }
 
     function showEndView(win, correctIndex){
         loader.source = "EndView.qml"
-        if(win){
-            showWinMessage()
-            setSfx("win.mp3")
-        }
-        else {
+        if(!win){
             showCondolencesMessage(correctIndex)
-            setSfx("lose.mp3")
+            setSfx("lose.mp3", false)
+        }
+        else if(win === 1) {
+            showWinMessage()
+            setSfx("win.mp3", false)
+        }
+        else if(win === 2){
+            showConcedeMessage(correctIndex)
+            setSfx("concede.mp3", false)
         }
     }
 
@@ -105,6 +112,14 @@ Window {
         }
     }
 
+    function showConcedeMessage(correctIndex){
+        var msg_component = Qt.createComponent("ConcedeMessage.qml")
+        if(msg_component.status === Component.Ready){
+            var msg_object = msg_component.createObject(view, {"prize":controller.gameRoundToPrize(),
+                                                                "correctChoice": indexToChoice(correctIndex)})
+        }
+    }
+
     function showLoadUrl(){
         var component = Qt.createComponent("LoadUrl.qml")
         if(component.status === Component.Ready){
@@ -153,7 +168,7 @@ Window {
     }
 
     Component.onCompleted: {
-        sfx.play()
+        setSfx("theme.wav", false)
         showStartView()
     }
 }

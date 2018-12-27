@@ -73,6 +73,8 @@ bool Game::initialize(std::vector<std::vector<Question*>> QVV,
 
 void Game::step(int guess)
 {
+    if(state_ != ON)
+        return;
 
     if(!isCorrect(guess))
         setState(OFF);
@@ -229,6 +231,13 @@ bool Game::isCorrect(int guess)
         return true;
 
     else return false;
+}
+
+int Game::correct()
+{
+    if(state_ == OFF)
+        return current_->correct();
+    else return -1;
 }
 
 

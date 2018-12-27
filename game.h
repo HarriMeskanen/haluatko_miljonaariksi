@@ -34,6 +34,7 @@ public:
     inline void stop(){setState(OFF);}
     void setQuestion();
     bool isCorrect(int guess);
+    int correct();
     inline bool winStatus(){return winStatus_;}
     void reset();
     void reverse();

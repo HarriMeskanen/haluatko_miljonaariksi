@@ -7,5 +7,6 @@
         <file>sfx/lvl3.mp3</file>
         <file>sfx/lose.mp3</file>
         <file>sfx/win.mp3</file>
+        <file>sfx/concede.mp3</file>
     </qresource>
 </RCC>

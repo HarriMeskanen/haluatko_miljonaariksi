@@ -40,3 +40,6 @@ HEADERS += \
     question.h
 
 DISTFILES +=
+
+RC_FILE = windowsResource.rc
+

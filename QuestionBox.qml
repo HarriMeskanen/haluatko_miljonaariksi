@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.3
 
 Rectangle{
     property string text: ""
+    property int fontSize: setFontSize()/2
     color: "black"
     border.color: "gold"
     border.width: parent.width*0.005
@@ -16,8 +17,8 @@ Rectangle{
 
     Text{
         anchors.centerIn: parent
-        font.pointSize: setFontSize()/2
-        text: setText(parent.text, font.pointSize, parent.width)
+        font.pointSize: parent.fontSize
+        text: parent.text
         color: "white"
     }
 }

@@ -88,6 +88,7 @@ void Controller::viewStep(int action)
 
     case CONCEDE:
         game_->stop();
+        emit gameEnds(2, game_->correct());
         break;
     }
 }

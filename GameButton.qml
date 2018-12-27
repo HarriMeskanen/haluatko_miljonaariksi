@@ -6,6 +6,7 @@ Rectangle{
     id: button
 
     property string text: ""
+    property string fontSize: setFontSize()/2
     signal action()
 
     color: "black"
@@ -23,7 +24,7 @@ Rectangle{
         text: button.text
         color: "white"
         anchors.centerIn: button
-        font.pointSize: setFontSize()/2
+        font.pointSize: button.fontSize
 
     }
 

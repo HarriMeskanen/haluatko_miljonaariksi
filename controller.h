@@ -50,7 +50,7 @@ public slots:
 signals:
     void gameInitialized(bool status);
     void gameStarts(bool status);
-    void gameEnds(bool status, int correct);
+    void gameEnds(int status, int correct);
     void gameContinues(int correct);
     void gameStateChanged();
 

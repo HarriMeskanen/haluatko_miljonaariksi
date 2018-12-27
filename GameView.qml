@@ -19,20 +19,26 @@ Item {
 
         onModelChanged:{
             choices.reset()
-            question.text = model.question
-            a.text = setText(model.a, setFontSize(), view.width)
-            b.text = setText(model.b, setFontSize(), view.width)
-            c.text = setText(model.c, setFontSize(), view.width)
-            d.text = setText(model.d, setFontSize(), view.width)
+            questionBox.text = setText(model.question, questionBox.fontSize, questionBox.width)
+            a.text = setText(model.a, a.fontSize, a.width)
+            b.text = setText(model.b, b.fontSize, b.width)
+            c.text = setText(model.c, c.fontSize, c.width)
+            d.text = setText(model.d, d.fontSize, d.width)
         }
 
         onLevelChanged:{
-            setSfx("lvl" + level + ".mp3")
+            setSfx("lvl" + level + ".mp3", true)
         }
 
         onVoteResults:{
             showVoteResults(a,b,c,d)
         }
+    }
+
+    ConcedeButton{
+        id: concede
+        text: "Luovuta"
+        onAction: controller.viewStep(-1)
     }
 
     LifeLines{
@@ -47,7 +53,7 @@ Item {
 
 
         QuestionBox{
-            id: question
+            id: questionBox
         }
 
         GridLayout{
