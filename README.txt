@@ -19,7 +19,7 @@ jossa vaikeusaste saa arvoja nollan ja kolmen väliltä [0,1,2,3]
 (helppo, keskivaikea, vaikea, 1milj), ja oikea_vastaus saa
 vastaavasti arvot [0,1,2,3] (A, B, C, D). 
 
-HUOM! Kysymyksissä tai vastausvaihtoehdoissa ei saa esiintyä puolipilkkuja ';',
+HUOM! Kysymyksissä tai vastausvaihtoehdoissa ei saa esiintyä puolipistettä ';',
 koska sitä käytetään kysymysrivin alkoiden erotusmerkkinä. 
 
 
@@ -54,7 +54,3 @@ MEDIAFIRE
 - parannettu tekstin sijoittelutyyliä sille annettuun tilaan (rivit eivät enää
   vaihdu sattumanvaraisesti)
 - poistettu vakio kysymystiedostosta räikeimmät inside-kysymykset
-
-
----------------------------------------------------
----------------------------------------------------
