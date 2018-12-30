@@ -30,7 +30,7 @@ koska sitä käytetään kysymysrivin alkoiden erotusmerkkinä.
 HUOM! Toistaiseksi ainoastaan windowsille.
 
 GITHUB
-v v1.1 https://github.com/HarriMeskanen/haluatko_miljonaariksi/releases/tag/v1.1
+- v1.1 https://github.com/HarriMeskanen/haluatko_miljonaariksi/releases/tag/v1.1
 
 MEDIAFIRE
 - v1.0 http://www.mediafire.com/file/6ayt3vcylxcq3qf
