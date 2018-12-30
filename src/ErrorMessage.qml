@@ -1,16 +1,32 @@
 import QtQuick 2.10
 import QtQuick.Dialogs 1.2
+import QtQuick.Controls 2.0
 
 
-
-MessageDialog {
+Rectangle{
     id: message
-    title: "Virhe"
-    text: "Tiedoston avaaminen tai käyttöönotto epäonnistui."
-    onAccepted: {
-        message.close
+    property string text
+    color: "black"
+    border.color: "gold"
+
+    anchors.centerIn: parent
+    width: parent.width*0.9
+    height: parent.height/3
+    border.width: width*0.005
+
+
+    Text{
+        id: messageText
+        font.pointSize: setFontSize()*0.8
+        text: setText(message.text, font.pointSize, message.width)
+        color: "white"
+        anchors.centerIn: message
+
     }
-    Component.onCompleted: {
-        visible = true
+
+    CloseButton{
+        anchors.right: message.right
+        anchors.bottom: message.bottom
+        onAction: message.destroy()
     }
 }
