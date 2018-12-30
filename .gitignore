@@ -1,4 +1,6 @@
 build-haluatko_miljonaariksi-Desktop_Qt_5_12_0_MinGW_64_bit-Debug
+build-haluatko_miljonaariksi-Desktop_Qt_5_12_0_MinGW_64_bit-Release/
+
 haluatko_miljonaariksi.pro.user
 
 # Compiled source #
@@ -10,6 +12,7 @@ haluatko_miljonaariksi.pro.user
 *.o
 *.so
 *.user
+*.autosave
 
 # Packages #
 ############

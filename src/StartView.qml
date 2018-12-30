@@ -15,38 +15,72 @@ Item {
         source: "qrc:/images/logo.png"
     }
 
+    Connections{
+        target: controller
+        onGameStateChanged: {
+            playButton.borderColor = controller.gameStateToColor()
+        }
+    }
+
+
     ColumnLayout{
-        anchors.centerIn: startView
-        width: startView.width*0.5
-        height: startView.height/2
-        spacing: startView.height*0.025
+        id: menu
+        enabled: !settings.isOpen
+
+        anchors.fill: parent
+        anchors.margins: parent.height/5
+        spacing: parent.height*0.01
 
         DefaultButton{
             id: playButton
             text: "PELAA"
-            onAction: {
-                controller.startGame()
-            }
-
-        }
-
-        DefaultButton{
-            id: fileButton
-            text: "VALITSE KYSYMYSTIEDOSTO"
             borderColor: controller.gameStateToColor()
-            onAction: showLoadUrl()
-
-            Connections{
-                target: controller
-                onGameStateChanged: fileButton.borderColor = controller.gameStateToColor()
-            }
+            onAction: controller.startGame()
         }
 
+        RowLayout{
+            id: setFile
+            width: parent.width
+
+            DefaultButton{
+                id: fileButton
+                text: "VALITSE KYSYMYSTIEDOSTO"
+                pointSize: setFontSize()/1.1
+                radius: playButton.width/64
+                onAction: showLoadUrl()
+            }
+
+            Rectangle{
+                id: reverseButton
+                color: "black"
+                border.color: "gold"
+                border.width: playButton.width*0.005
+                radius: playButton.width/64
+                Layout.fillHeight: true
+                Layout.preferredWidth: height
+
+                Image {
+                    anchors.fill: reverseButton
+                    source: "qrc:/images/refresh.png"
+                }
+
+                MouseArea{
+                    id: mousearea
+                    anchors.fill: reverseButton
+                    hoverEnabled: true
+                    onHoveredChanged: reverseButton.color = mousearea.containsMouse ? "midnightblue" : "black"
+                    onClicked: controller.reverseGame()
+                }
+            }
+        }
         DefaultButton{
             id: quitButton
             text: "LOPETA"
             onAction: quit()
         }
+    }
+    SettingsMenu{
+        id: settings
     }
 
 }

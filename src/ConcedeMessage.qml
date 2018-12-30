@@ -5,8 +5,8 @@ Rectangle {
     property int prize: 0
     property string correctChoice: ""
 
-    width: parent.width
-    height: parent.height/4
+    width: parent.width*0.9
+    height: parent.height/3
     anchors.centerIn: parent
     radius: parent.width/64
     color: "black"
@@ -36,5 +36,4 @@ Rectangle {
             message.destroy();
         }
     }
-
 }

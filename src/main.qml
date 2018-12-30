@@ -26,6 +26,10 @@ Window {
         source: ""
     }
 
+    function toggleSfx(){
+        sfx.volume = (sfx.volume == 0) ? 1 : 0
+    }
+
     function setSfx(id, inf){
         sfx.stop()
         if(inf)
@@ -54,11 +58,12 @@ Window {
             showWinMessage()
             setSfx("win.mp3", false)
         }
-        else if(win === 2){
+        else if(win === -1){
             showConcedeMessage(correctIndex)
             setSfx("concede.mp3", false)
         }
     }
+
 
     function setFontSize(){
         var size = view.width*0.025
@@ -68,25 +73,53 @@ Window {
     }
 
     function setText(text, psize, width){
-        var textLength = text.length
-        var maxLength = (3/2)*(width/psize)
-        if(textLength <= maxLength)
+        var nText = text.length
+        // how many chars will fit in one row. 0.85 to take DPI scaling into account
+        var nMax = Math.round(((3/2)*(width/psize)*0.85))
+
+        if(nText <= nMax)
             return text
 
-        var mul = Math.floor(textLength/maxLength)
         var prettyText = ""
-        var i = 1
-        for(i; i<mul+1; i++){
-            prettyText += text.substring((i-1)*maxLength,i*maxLength) + "\n"
+        var rows = Math.floor(nText/nMax)
+        var row = 1
+
+        for(row; row<rows+1; row++){
+            var nPretty = prettyText.length
+            var ii = row*nMax
+
+            while(true){
+                if(text[ii] === " ")
+                    break;
+                ii -= 1
+            }
+            prettyText += text.substring(nPretty, ii) + "\n"
         }
-        prettyText += text.substring((i-1)*maxLength, text.length)
+        prettyText += text.substring(prettyText.length, nText)
         return prettyText
     }
 
-    function showErrorMessage(){
+    function showErrorMessage(error){
+        var msg_text
+        switch(error){
+        case 0:
+            msg_text = "Pelin alustus valitulla kysymystiedostolla epäonnistui."
+            break;
+        case 1:
+            msg_text = "Toimintaehdot täyttävä kysymystiedosto valittava ennen pelaamista."
+            break;
+        case 2:
+            msg_text = "Valittu kysymystiedosto pelattu loppuun. Valitse uusi kysymystiedosto tai " +
+                        "nollaa tämän hetkinen kysymystiedosto jatkaaksesi pelaamista."
+            break;
+        default:
+            msg_text = "Unknown error code"
+            break;
+
+        }
         var msg_component = Qt.createComponent("ErrorMessage.qml")
         if(msg_component.status === Component.Ready){
-            var msg_object = msg_component.createObject(view)
+            var msg_object = msg_component.createObject(view,{"text": msg_text})
         }
     }
 
@@ -134,6 +167,13 @@ Window {
         }
     }
 
+    function showInfo(){
+        var component = Qt.createComponent("Info.qml")
+        if(component.status === Component.Ready){
+            var object = component.createObject(view)
+        }
+    }
+
     function indexToChoice(i){
         switch(i){
         case 0:
@@ -145,7 +185,6 @@ Window {
         case 3:
             return model.d
         }
-
     }
 
     function quit(){
@@ -156,14 +195,16 @@ Window {
         target: controller
 
         onGameStarts:{
-            if(status)
-                showGameView()
+            showGameView()
         }
         onGameEnds:{
             showEndView(status, correct)
         }
         onGameContinues:{
             showCongratulationMessage()
+        }
+        onErrorSignal:{
+            showErrorMessage(error)
         }
     }
 

@@ -17,29 +17,39 @@ void Controller::initializeGame(QUrl url)
     path = path.substr(1, path.length());
 
     if(path == filePath_)
-    {
-        emit gameInitialized(true);
         return;
-    }
 
     filePath_ = path;
-    std::vector<std::vector<Question*>> QVV;
-    std::vector<Question*> QV;
+    std::vector<Question*> *QV;
 
-    readFileAndCreateQuestions(QVV, QV);
+    QV = readFileAndCreateQuestions();
 
-    emit gameInitialized(game_->initialize(QVV, QV));
+    if(!game_->initialize(QV))
+        emit errorSignal(static_cast<int>(INITIALIZATION_ERROR));
 }
 
 
 void Controller::startGame()
 {
-    if(game_->state() == UNINITIALIZED)
-        emit gameStarts(false);
-    else
+    switch(game_->state())
     {
-        emit gameStarts(true);
+    case UNINITIALIZED:
+        emit errorSignal(static_cast<int>(UNINITIALIZED_START_ERROR));
+        break;
+
+    case LOCKED:
+        emit errorSignal(static_cast<int>(LOCKED_START_ERROR));
+        break;
+
+    case INITIALIZED:
+    case OFF:
+        emit gameStarts();
         game_->start();
+        break;
+
+    // added to avoid dumb editor warning
+    case ON:
+        break;
     }
 }
 
@@ -49,6 +59,7 @@ void Controller::modelStep(int correct)
     switch(game_->state())
     {
     case OFF:
+    case LOCKED:
         emit gameEnds(game_->winStatus(), correct);
         break;
     case ON:
@@ -56,7 +67,6 @@ void Controller::modelStep(int correct)
         break;
     // added to avoid dumb editor warning
     case UNINITIALIZED:
-        break;
     case INITIALIZED:
         break;
     }
@@ -88,22 +98,19 @@ void Controller::viewStep(int action)
 
     case CONCEDE:
         game_->stop();
-        emit gameEnds(2, game_->correct());
+        emit gameEnds(-1, game_->correct());
         break;
     }
 }
 
 
-void Controller::readFileAndCreateQuestions(std::vector<std::vector<Question*>> &QVV,
-                                            std::vector<Question*> &QV)
+std::vector<Question*>* Controller::readFileAndCreateQuestions()
 {
     std::ifstream file(filePath_);
     std::string line;
 
     Question* q = nullptr;
-
-    for(size_t i=0; i<4; i++)
-        QVV.push_back(QV);
+    auto *QV = new std::vector<Question*>();
 
     if(file.is_open())
     {
@@ -128,7 +135,7 @@ void Controller::readFileAndCreateQuestions(std::vector<std::vector<Question*>> 
             try
             {
                 q = new Question(v);
-                q->index = QV.size();
+                q->index = QV->size();
             }
             catch (int)
             {
@@ -136,11 +143,19 @@ void Controller::readFileAndCreateQuestions(std::vector<std::vector<Question*>> 
                 q = nullptr;
                 continue;
             }
-            QVV.at(static_cast<size_t>(q->level())).push_back(q);
-            QV.push_back(q);
+            QV->push_back(q);
         }
         file.close();
     }
+    return QV;
+}
+
+void Controller::reverseGame()
+{
+    if(game_->state() == UNINITIALIZED)
+        return;
+
+    game_->reverse();
 }
 
 void Controller::quit()

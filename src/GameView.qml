@@ -20,10 +20,10 @@ Item {
         onModelChanged:{
             choices.reset()
             questionBox.text = setText(model.question, questionBox.fontSize, questionBox.width)
-            a.text = setText(model.a, a.fontSize, a.width)
-            b.text = setText(model.b, b.fontSize, b.width)
-            c.text = setText(model.c, c.fontSize, c.width)
-            d.text = setText(model.d, d.fontSize, d.width)
+            a.text = setText("A) " + model.a, a.fontSize, a.width)
+            b.text = setText("B) " + model.b, b.fontSize, b.width)
+            c.text = setText("C) " + model.c, c.fontSize, c.width)
+            d.text = setText("D) " + model.d, d.fontSize, d.width)
         }
 
         onLevelChanged:{
@@ -35,21 +35,12 @@ Item {
         }
     }
 
-    ConcedeButton{
-        id: concede
-        text: "Luovuta"
-        onAction: controller.viewStep(-1)
-    }
-
-    LifeLines{
-        id: ll
-    }
-
     ColumnLayout{
         id: questionAndChoices
+
         anchors.centerIn: parent
         width: parent.width*0.8
-        height: parent.height/3
+        height: parent.height/2
 
 
         QuestionBox{
@@ -84,4 +75,20 @@ Item {
         }
     }
 
+    LifeLines{
+        id: ll
+
+        anchors.left: parent.left
+        anchors.verticalCenter: questionAndChoices.verticalCenter
+        anchors.verticalCenterOffset: -questionAndChoices.height/2 - (view.height - questionAndChoices.height)/4
+    }
+
+    ConcedeButton{
+        id: concede
+
+        anchors.left: parent.left
+        anchors.verticalCenter: questionAndChoices.verticalCenter
+        anchors.verticalCenterOffset: questionAndChoices.height/2 + (view.height - questionAndChoices.height)/4
+        onAction: controller.viewStep(-1)
+    }
 }

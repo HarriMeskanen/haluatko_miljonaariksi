@@ -4,7 +4,6 @@ import QtQuick 2.0
 Rectangle{
     id: button
 
-    property string text: ""
     property real pointSize: setFontSize()/2
     property string borderColor: "gold"
     signal action()
@@ -15,18 +14,14 @@ Rectangle{
     width: parent.width/8
     height: parent.height/18
     border.width: width*0.005
-
-    anchors.right: parent.right
-    anchors.top: parent.top
-    anchors.topMargin: parent.height/8
     radius: width/64
 
     Text{
         id: buttonText
-        text: button.text
+        text: "Luovuta"
         color: "white"
-        anchors.centerIn: button
-        font.pointSize: button.pointSize
+        anchors.centerIn: parent
+        font.pointSize: parent.pointSize
 
     }
 
@@ -36,11 +31,11 @@ Rectangle{
         hoverEnabled: true
 
         onHoveredChanged: {
-            button.color = containsMouse ? "midnightblue" : "black"
+            parent.color = containsMouse ? "midnightblue" : "black"
         }
 
         onClicked: {
-            button.action()
+            parent.action()
         }
 
     }

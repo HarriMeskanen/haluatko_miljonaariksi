@@ -6,7 +6,7 @@ Rectangle{
     color: "black"
     border.color: "gold"
     border.width: parent.width*0.005
-    width: parent.width
+    width: parent.width*0.9
     height: parent.height/4
     radius: width/64
     anchors.centerIn: parent

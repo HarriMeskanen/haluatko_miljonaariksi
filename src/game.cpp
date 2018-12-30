@@ -2,72 +2,85 @@
 
 
 Game::Game(QObject *parent)
-    : QObject(parent), current_(nullptr), round_(0), MAX_ROUNDS_(14),
-      state_(UNINITIALIZED), winStatus_(false)
+    : QObject(parent), QV_(nullptr), current_(nullptr),
+      round_(0), MAX_ROUNDS_(14),state_(UNINITIALIZED), winStatus_(false)
 {
-    for(size_t i=0; i < 4; i++)
-        QVV_.push_back(std::vector<Question*>());
-
     srand(static_cast<unsigned int>(time(nullptr)));
+    QVV_ = {std::vector<Question*>(),
+            std::vector<Question*>(),
+            std::vector<Question*>(),
+            std::vector<Question*>()};
 }
 
 
 Game::~Game()
 {
-    for(size_t i=0; i<QV_.size(); i++)
-        delete QV_.at(i);
+    if(!QV_)
+        return;
+
+    for(size_t i=0; i<QV_->size(); i++)
+        delete QV_->at(i);
 }
 
 void Game::setState(enum state s)
 {
     state_ = s;
-    emit stateChanged();
+    emit stateChanged();        
 }
 
-bool Game::start()
+
+void Game::start()
 {
-    switch(state_)
+    current_ = nullptr;
+    round_ = 0;
+    winStatus_ = false;
+    setState(ON);
+    setQuestion();
+}
+
+void Game::stop()
+{
+    unsigned int N[4] = {0, 0, 0, 0};
+    for(size_t i=0; i<QV_->size(); i++)
     {
-    case UNINITIALIZED:
-        return false;
+        auto q = QV_->at(i);
+        if(!q->locked)
+            N[q->level()] += 1;
+    }
+    if( ((N[0] < 5) | (N[1] < 5) | (N[2] < 4) | !N[3]) )
+        setState(LOCKED);
 
-    case OFF:
-        reverse();
-        [[clang::fallthrough]];
-
-    case INITIALIZED:
-        setState(ON);
-        setQuestion();
-        break;
-
-    // added to avoid dumb editor warning.
-    case ON:
-        break;
-    }    
-    return true;
+    else setState(OFF);
 }
 
 
-bool Game::initialize(std::vector<std::vector<Question*>> QVV,
-                      std::vector<Question*> QV)
+bool Game::initialize(std::vector<Question *> *QV)
 {
+    std::vector<std::vector<Question*>> QVV = { std::vector<Question*>(),
+                                                std::vector<Question*>(),
+                                                std::vector<Question*>(),
+                                                std::vector<Question*>()};
+    // sort questions based on their difficulty levels
+    for(size_t i=0; i < QV->size(); i++)
+    {
+        Question* q = QV->at(i);
+        size_t j = static_cast<size_t>(q->level());
+        if(j>3)
+            continue;
+        QVV.at(j).push_back(q);
+    }
+
     auto sz0 = QVV.at(0).size();
     auto sz1 = QVV.at(1).size();
     auto sz2 = QVV.at(2).size();
     auto sz3 = QVV.at(3).size();
 
     if( ((sz0 | sz1) < 5) | (sz2 < 4) | !sz3 )
-    {
         return false;
-    }
 
-    reset();
-
-    QVV_ = QVV;
     QV_ = QV;
-
+    QVV_ = QVV;
     setState(INITIALIZED);
-
     return true;
 }
 
@@ -77,12 +90,12 @@ void Game::step(int guess)
         return;
 
     if(!isCorrect(guess))
-        setState(OFF);
+        stop();
 
     else if(round_ == MAX_ROUNDS_)
     {
         winStatus_ = true;
-        setState(OFF);
+        stop();
     }
     else
     {
@@ -235,17 +248,34 @@ bool Game::isCorrect(int guess)
 
 int Game::correct()
 {
-    if(state_ == OFF)
+    switch(state_)
+    {
+    case OFF:
+    case LOCKED:
         return current_->correct();
-    else return -1;
+
+    case UNINITIALIZED:
+    case INITIALIZED:
+    case ON:
+        break;
+    }
+    return -1;
 }
 
 
 void Game::reset()
 {
+    if(!QV_)
+        return;
+
+    for(size_t i=0; i<QV_->size(); i++)
+        delete QV_->at(i);
+    QV_->clear();
+    QV_ = nullptr;
+
     for(size_t i=0; i<4; i++)
         QVV_.at(i).clear();
-    QV_.clear();
+
     AQV_.clear();
     current_ = nullptr;
     round_ = 0;
@@ -257,7 +287,7 @@ void Game::reset()
 void Game::reverse()
 {
     for (size_t i=0; i<AQV_.size(); i++)
-        QV_.at(AQV_.at(i))->locked = false;
+        QV_->at(AQV_.at(i))->locked = false;
 
     AQV_.clear();
     current_ = nullptr;
@@ -268,5 +298,5 @@ void Game::reverse()
 
 void Game::quit()
 {
-    reset();
+
 }

@@ -17,5 +17,8 @@
         <file>LLButton.qml</file>
         <file>ConcedeButton.qml</file>
         <file>ConcedeMessage.qml</file>
+        <file>SettingsMenu.qml</file>
+        <file>Info.qml</file>
+        <file>CloseButton.qml</file>
     </qresource>
 </RCC>

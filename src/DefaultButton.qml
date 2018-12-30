@@ -13,8 +13,8 @@ Rectangle{
     border.color: borderColor
     border.width: parent.width*0.005
 
-    Layout.fillWidth: true
     Layout.fillHeight: true
+    Layout.fillWidth: true
     radius: width/64
 
     Text{

@@ -10,7 +10,7 @@
 #include <ctime>
 
 
-enum state {OFF, ON, UNINITIALIZED, INITIALIZED};
+enum state {OFF, ON, UNINITIALIZED, INITIALIZED, LOCKED};
 
 
 class Game : public QObject
@@ -28,10 +28,9 @@ public:
     Game(QObject *parent = nullptr);    
     ~Game();
 
-    bool initialize(std::vector<std::vector<Question*>> QVV,
-                    std::vector<Question*> QV);
-    bool start();
-    inline void stop(){setState(OFF);}
+    bool initialize(std::vector<Question*> *QV);
+    void start();
+    void stop();
     void setQuestion();
     bool isCorrect(int guess);
     int correct();
@@ -64,6 +63,8 @@ signals:
 
 
 private:
+    // Question-Vector
+    std::vector<Question*> *QV_;
     // Question-Vector-Vector
     // 4 containers for easy, normal, hard and pro level questions
     // rounds   1   to  5   : easy
@@ -71,8 +72,6 @@ private:
     //          11  to  14  : hard
     //          15  to  Inf : pro
     std::vector<std::vector<Question*>> QVV_;
-    // Question-Vector
-    std::vector<Question*> QV_;
     // asked questions vector. indeces of QV_
     std::vector<size_t> AQV_;
     // current question

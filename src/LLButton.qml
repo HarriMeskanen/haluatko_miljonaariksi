@@ -23,7 +23,6 @@ Rectangle{
         color: "white"
         anchors.centerIn: button
         font.pointSize: button.pointSize
-
     }
 
     MouseArea{

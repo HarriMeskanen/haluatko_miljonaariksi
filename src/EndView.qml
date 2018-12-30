@@ -9,7 +9,14 @@ Item {
         id: background
         anchors.fill: endView
         source: "qrc:/images/logo.png"
-    }        
+    }
+
+    Connections{
+        target: controller
+        onGameStateChanged: {
+            playButton.borderColor = controller.gameStateToColor()
+        }
+    }
 
     ColumnLayout{
         anchors.centerIn: parent
@@ -18,6 +25,8 @@ Item {
         spacing: endView.height*0.025
 
         DefaultButton{
+            id: playButton
+            borderColor: controller.gameStateToColor()
             text: "PELAA UUDELLEEN"
             onAction: controller.startGame()
         }

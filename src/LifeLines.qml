@@ -4,15 +4,9 @@ import QtQuick.Layouts 1.3
 Rectangle{
     id: ll
 
-    anchors.left: parent.left
-    anchors.top: parent.top
-    anchors.topMargin: parent.height/8
-
     width: parent.width/8
     height: parent.height/6
     color: "black"
-    //border.color: "gold"
-    //border.width: parent.width*0.005
     radius: height/32
 
     ColumnLayout{
